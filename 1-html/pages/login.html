@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" autocomplete="on">
+      <fieldset>
+        <legend>Account Information</legend>
+        <label for="username">Username : </label>
+        <input
+          autofocus
+          type="text"
+          required
+          minlength="4"
+          maxlength="32"
+          name="username"
+          placeholder="Enter Your Username...."
+          id="username"
+        />
+        <label for="idCode">Id Code : </label>
+        <input
+          type="text"
+          value="234567890"
+          readonly
+          name="idCode"
+          placeholder="Enter Your idCode...."
+          id="idCode"
+        />
+        <label>
+          Email :
+          <input type="email" name="Email" placeholder="Enter Your Email...." />
+        </label>
+        <label>
+          Password :
+          <input
+            pattern=""
+            type="password"
+            name="password"
+            placeholder="Enter Your Password...."
+          />
+        </label>
+      </fieldset>
+      <label>
+        women
+        <input type="radio" value="women" name="gender" />
+      </label>
+      <label>
+        men
+        <input type="radio" value="men" name="gender" />
+      </label>
+      <label>
+        Remember Me
+        <input type="checkbox" />
+      </label>
+      <textarea name="" id="" cols="30" rows="3"></textarea><br />
+      <label for="">
+        Choose A car
+        <select name="cars" id="">
+          <optgroup label="german Car">
+            <option value="001">bmw</option>
+            <option value="002">benz</option>
+          </optgroup>
+          <optgroup label="Iran Car">
+            <option value="003">pride</option>
+            <option value="004">samand</option>
+          </optgroup>
+        </select>
+      </label>
+      <input type="text" name="course" list="course" >
+      <datalist id="course">
+        <option value="Math">
+        <option value="Physics">
+        <option value="Chemistry">
+      </datalist>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
