@@ -1,7 +1,7 @@
 // created by alireza aghaee
 let age=20
 age=21
-const firstName='alireza'
+const firstName='saleh'
 
 const fName='saleh' //string
 const idCode=987654321 //number
